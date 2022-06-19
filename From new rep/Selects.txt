@@ -18,3 +18,5 @@ Left join calories on menu.id = calories.menu_id
 left join menu2 on menu.id = calories.menu2_id;
 
  *from database lerning**000
+
+hdeig
