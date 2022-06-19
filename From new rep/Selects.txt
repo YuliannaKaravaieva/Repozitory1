@@ -1,0 +1,18 @@
+select * from food;
+
+
+select name, count(*) from employers group by name;
+
+select menu.name, menu.price, menu2.calories from menu
+left join calories on menu.id = calories.menu_id
+left join menu2 on menu.id = calories.menu2_id;
+
+update menu2 set calories = id where calories > 1;
+update menu2 set calories = calories;
+
+select * from menu;
+select * from menu2;
+
+select menu.name, menu.price, menu2.calories from menu
+Left join calories on menu.id = calories.menu_id
+left join menu2 on menu.id = calories.menu2_id;
